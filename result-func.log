@@ -1,0 +1,474 @@
+2025-05-12 16:26:17,865  INFO  === Functional tests ===
+2025-05-12 16:26:17,867  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxltnj7fm/o add_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxltnj7fm/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxltnj7fm/b
+2025-05-12 16:26:18,037  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,038  INFO      add_v_v                   : [92mPASS[0m
+2025-05-12 16:26:18,039  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpj93lt8oz/o add_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpj93lt8oz/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpj93lt8oz/B
+2025-05-12 16:26:18,043  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,044  INFO      add_m_m                   : [92mPASS[0m
+2025-05-12 16:26:18,044  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp0l3t9oji/o sub_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp0l3t9oji/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp0l3t9oji/b
+2025-05-12 16:26:18,048  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,049  INFO      sub_v_v                   : [92mPASS[0m
+2025-05-12 16:26:18,049  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpjwxl7buk/o sub_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpjwxl7buk/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpjwxl7buk/B
+2025-05-12 16:26:18,053  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,054  INFO      sub_m_m                   : [92mPASS[0m
+2025-05-12 16:26:18,054  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzajcb7s2/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzajcb7s2/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzajcb7s2/b
+2025-05-12 16:26:18,057  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,058  INFO      dot_prod                  : [92mPASS[0m
+2025-05-12 16:26:18,059  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp1s4hirvg/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp1s4hirvg/v
+2025-05-12 16:26:18,062  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,063  INFO      norm                      : [92mPASS[0m
+2025-05-12 16:26:18,064  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp49pxjxuo/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp49pxjxuo/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp49pxjxuo/v
+2025-05-12 16:26:18,068  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,068  INFO      mult_m_v                  : [92mPASS[0m
+2025-05-12 16:26:18,069  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxym7v9ki/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxym7v9ki/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxym7v9ki/B
+2025-05-12 16:26:18,072  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,073  INFO      mult_m_m                  : [92mPASS[0m
+2025-05-12 16:26:18,074  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpk1me52l9/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpk1me52l9/A
+2025-05-12 16:26:18,078  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,079  INFO      transp                    : [92mPASS[0m
+2025-05-12 16:26:18,079  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpay0tbnvv/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpay0tbnvv/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpay0tbnvv/b
+2025-05-12 16:26:18,083  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,083  INFO      back_sub                  : [92mPASS[0m
+2025-05-12 16:26:18,084  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpm58hyhy8/o qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpm58hyhy8/A
+2025-05-12 16:26:18,093  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,094  INFO      qr                        : [92mPASS[0m
+2025-05-12 16:26:18,094  DEBUG  ▶ Exec: ./main -d 6 -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp_9tgufnx/o lstsq /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp_9tgufnx/X /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp_9tgufnx/Y
+2025-05-12 16:26:18,099  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,101  ERROR  Exception in lstsq
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 422, in t_lstsq
+    coeff = read_vector(fo)
+            ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 122, in read_vector
+    m = _read_u64_be(f)
+        ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 101, in _read_u64_be
+    raise EOFError("unexpected EOF")
+EOFError: unexpected EOF
+
+2025-05-12 16:26:18,101  INFO      lstsq                     : [91mFAIL[0m
+2025-05-12 16:26:18,101  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkcvktpvr/o add_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkcvktpvr/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkcvktpvr/b
+2025-05-12 16:26:18,105  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,105  INFO      add_v_v_empty             : [92mPASS[0m
+2025-05-12 16:26:18,106  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpb1lhl39_/o add_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpb1lhl39_/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpb1lhl39_/B
+2025-05-12 16:26:18,109  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,110  INFO      add_m_m_empty             : [92mPASS[0m
+2025-05-12 16:26:18,110  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpo4_4ihij/o sub_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpo4_4ihij/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpo4_4ihij/b
+2025-05-12 16:26:18,113  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,114  INFO      sub_v_v_empty             : [92mPASS[0m
+2025-05-12 16:26:18,114  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp7nnaamrs/o sub_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp7nnaamrs/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp7nnaamrs/B
+2025-05-12 16:26:18,119  DEBUG  ✔ Return 0  stdout=Erreur : nombre de threads supérieur à la taille des matrices  stderr=
+2025-05-12 16:26:18,119  INFO      sub_m_m_empty             : [92mPASS[0m
+2025-05-12 16:26:18,120  DEBUG  ▶ Exec: ./main -f /dev/null add_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpnnospuz8/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpnnospuz8/b
+2025-05-12 16:26:18,124  ERROR  ❌ Exit 1  stdout: 
+stderr: Les deux vecteurs sont de tailles différentes.
+
+2025-05-12 16:26:18,126  INFO      add_v_v_shape_mismatch    : [92mPASS[0m
+2025-05-12 16:26:18,127  DEBUG  ▶ Exec: ./main -f /dev/null add_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpem25q8o0/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpem25q8o0/B
+2025-05-12 16:26:18,130  ERROR  ❌ Exit 1  stdout: 
+stderr: Les deux matrices sont de tailles différentes.
+
+2025-05-12 16:26:18,131  INFO      add_m_m_shape_mismatch    : [92mPASS[0m
+2025-05-12 16:26:18,131  DEBUG  ▶ Exec: ./main -f /dev/null add_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2d_yi9k3/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2d_yi9k3/B
+2025-05-12 16:26:18,135  ERROR  ❌ Exit 1  stdout: 
+stderr: Les deux matrices sont de tailles différentes.
+
+2025-05-12 16:26:18,135  INFO      add_m_m_singleton_mismatch : [92mPASS[0m
+2025-05-12 16:26:18,136  DEBUG  ▶ Exec: ./main -f /dev/null sub_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp8txe89x6/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp8txe89x6/b
+2025-05-12 16:26:18,139  ERROR  ❌ Exit 1  stdout: 
+stderr: Les deux vecteurs sont de tailles différentes.
+
+2025-05-12 16:26:18,139  INFO      sub_v_v_shape_mismatch    : [92mPASS[0m
+2025-05-12 16:26:18,140  DEBUG  ▶ Exec: ./main -f /dev/null sub_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp8w5t305j/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp8w5t305j/B
+2025-05-12 16:26:18,143  ERROR  ❌ Exit 1  stdout: 
+stderr: Les deux matrices sont de tailles différentes.
+
+2025-05-12 16:26:18,144  INFO      sub_m_m_shape_mismatch    : [92mPASS[0m
+2025-05-12 16:26:18,144  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt5_j1pkc/o1 add_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt5_j1pkc/a1 /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt5_j1pkc/a2
+2025-05-12 16:26:18,148  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,148  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt5_j1pkc/o2 add_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt5_j1pkc/b1 /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt5_j1pkc/b2
+2025-05-12 16:26:18,152  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,153  INFO      add_v_v_extreme           : [92mPASS[0m
+2025-05-12 16:26:18,153  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp4nhtb5rj/o add_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp4nhtb5rj/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp4nhtb5rj/B
+2025-05-12 16:26:18,156  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,157  INFO      add_m_m_extreme           : [92mPASS[0m
+2025-05-12 16:26:18,157  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp6qs5mb8b/o add_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp6qs5mb8b/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp6qs5mb8b/b
+2025-05-12 16:26:18,161  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,162  INFO      add_v_v_special           : [92mPASS[0m
+2025-05-12 16:26:18,162  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpocfb7rrn/o add_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpocfb7rrn/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpocfb7rrn/B
+2025-05-12 16:26:18,165  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,166  INFO      add_m_m_special           : [92mPASS[0m
+2025-05-12 16:26:18,167  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp3qiadp7t/o add_v_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp3qiadp7t/v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp3qiadp7t/v
+2025-05-12 16:26:18,170  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,171  INFO      add_v_v_aliasing          : [92mPASS[0m
+2025-05-12 16:26:18,172  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp4my70gce/o add_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp4my70gce/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp4my70gce/A
+2025-05-12 16:26:18,175  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,176  INFO      add_m_m_aliasing          : [92mPASS[0m
+2025-05-12 16:26:18,177  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp6rbj91y5/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp6rbj91y5/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp6rbj91y5/b
+2025-05-12 16:26:18,180  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,181  INFO      dot_prod_orth             : [92mPASS[0m
+2025-05-12 16:26:18,182  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp82szayuv/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp82szayuv/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp82szayuv/b
+2025-05-12 16:26:18,186  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,186  INFO      dot_prod_unit_parallel    : [92mPASS[0m
+2025-05-12 16:26:18,187  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpucog_z6c/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpucog_z6c/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpucog_z6c/b
+2025-05-12 16:26:18,190  ERROR  ❌ Exit 1  stdout: 
+stderr: 
+2025-05-12 16:26:18,192  ERROR  Exception in dot_prod_antiparallel_overflow
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 661, in t_dot_prod_antiparallel_overflow
+    run_cli("dot_prod", a, b, fout=o, timeout=timeout, binary=binary)
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 205, in run_cli
+    cp = subprocess.run(cmd, check=True, timeout=timeout,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['./main', '-f', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpucog_z6c/o', 'dot_prod', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpucog_z6c/a', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpucog_z6c/b']' returned non-zero exit status 1.
+
+2025-05-12 16:26:18,192  INFO      dot_prod_antiparallel_overflow : [91mFAIL[0m
+2025-05-12 16:26:18,193  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpbdy_9zk0/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpbdy_9zk0/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpbdy_9zk0/b
+2025-05-12 16:26:18,196  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,197  INFO      dot_prod_nan_propagation  : [92mPASS[0m
+2025-05-12 16:26:18,197  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpcf24gjra/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpcf24gjra/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpcf24gjra/b
+2025-05-12 16:26:18,201  ERROR  ❌ Exit 1  stdout: 
+stderr: 
+2025-05-12 16:26:18,202  ERROR  Exception in dot_prod_inf
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 684, in t_dot_prod_inf
+    run_cli("dot_prod", a, b, fout=o, timeout=timeout, binary=binary)
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 205, in run_cli
+    cp = subprocess.run(cmd, check=True, timeout=timeout,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['./main', '-f', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpcf24gjra/o', 'dot_prod', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpcf24gjra/a', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpcf24gjra/b']' returned non-zero exit status 1.
+
+2025-05-12 16:26:18,202  INFO      dot_prod_inf              : [91mFAIL[0m
+2025-05-12 16:26:18,345  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp83l0rb0i/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp83l0rb0i/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp83l0rb0i/b
+2025-05-12 16:26:18,355  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,356  INFO      dot_prod_long_vector      : [92mPASS[0m
+2025-05-12 16:26:18,357  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmps69zmx_q/o dot_prod /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmps69zmx_q/a /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmps69zmx_q/b
+2025-05-12 16:26:18,362  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,363  INFO      dot_prod_empty            : [92mPASS[0m
+2025-05-12 16:26:18,364  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp7_oet9k4/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp7_oet9k4/a
+2025-05-12 16:26:18,369  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,370  INFO      norm_zero_vector          : [92mPASS[0m
+2025-05-12 16:26:18,370  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpr0evpeqy/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpr0evpeqy/a
+2025-05-12 16:26:18,375  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,376  INFO      norm_unit_basis           : [92mPASS[0m
+2025-05-12 16:26:18,376  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2um7mdti/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2um7mdti/a
+2025-05-12 16:26:18,381  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,382  INFO      norm_huge_tiny_mix        : [92mPASS[0m
+2025-05-12 16:26:18,382  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvktkiy66/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvktkiy66/a
+2025-05-12 16:26:18,387  ERROR  ❌ Exit 1  stdout: 
+stderr: 
+2025-05-12 16:26:18,391  ERROR  Exception in norm_overflow_or_scaled
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 773, in t_norm_overflow_or_scaled
+    run_cli("norm", a, None, fout=o, timeout=timeout, binary=binary)
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 205, in run_cli
+    cp = subprocess.run(cmd, check=True, timeout=timeout,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['./main', '-f', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvktkiy66/o', 'norm', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvktkiy66/a']' returned non-zero exit status 1.
+
+2025-05-12 16:26:18,391  INFO      norm_overflow_or_scaled   : [91mFAIL[0m
+2025-05-12 16:26:18,392  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp7bj71aax/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp7bj71aax/a
+2025-05-12 16:26:18,396  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,397  INFO      norm_nan                  : [92mPASS[0m
+2025-05-12 16:26:18,397  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppt4u64ar/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppt4u64ar/a
+2025-05-12 16:26:18,402  ERROR  ❌ Exit 1  stdout: 
+stderr: 
+2025-05-12 16:26:18,403  ERROR  Exception in norm_inf
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 799, in t_norm_inf
+    run_cli("norm", a, None, fout=o, timeout=timeout, binary=binary)
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 205, in run_cli
+    cp = subprocess.run(cmd, check=True, timeout=timeout,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['./main', '-f', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppt4u64ar/o', 'norm', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppt4u64ar/a']' returned non-zero exit status 1.
+
+2025-05-12 16:26:18,403  INFO      norm_inf                  : [91mFAIL[0m
+2025-05-12 16:26:18,404  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzvwj0vf0/o norm /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzvwj0vf0/a
+2025-05-12 16:26:18,409  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,409  INFO      norm_empty                : [92mPASS[0m
+2025-05-12 16:26:18,410  DEBUG  ▶ Exec: ./main -f /dev/null mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp_gsvlxok/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp_gsvlxok/x
+2025-05-12 16:26:18,416  ERROR  ❌ Exit 1  stdout: 
+stderr: Taille incompatible entre la matrice et le vecteur initial 
+
+2025-05-12 16:26:18,417  INFO      mult_m_v_shape_mismatch   : [92mPASS[0m
+2025-05-12 16:26:18,418  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpf08c6g71/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpf08c6g71/I /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpf08c6g71/x
+2025-05-12 16:26:18,422  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,423  INFO      mult_m_v_identity         : [92mPASS[0m
+2025-05-12 16:26:18,424  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwz_5rewm/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwz_5rewm/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwz_5rewm/x
+2025-05-12 16:26:18,428  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,429  INFO      mult_m_v_zero_matrix      : [92mPASS[0m
+2025-05-12 16:26:18,429  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzthgemr_/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzthgemr_/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzthgemr_/x
+2025-05-12 16:26:18,434  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,435  INFO      mult_m_v_diagonal         : [92mPASS[0m
+2025-05-12 16:26:18,435  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp66lwfjkk/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp66lwfjkk/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp66lwfjkk/x
+2025-05-12 16:26:18,440  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,441  INFO      mult_m_v_upper_triangular : [92mPASS[0m
+2025-05-12 16:26:18,442  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpr5knyvls/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpr5knyvls/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpr5knyvls/x
+2025-05-12 16:26:18,448  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,449  INFO      mult_m_v_lower_triangular : [92mPASS[0m
+2025-05-12 16:26:18,449  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpad6cuvlu/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpad6cuvlu/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpad6cuvlu/x
+2025-05-12 16:26:18,454  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,455  INFO      mult_m_v_extreme_scaling  : [92mPASS[0m
+2025-05-12 16:26:18,457  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmposgw599q/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmposgw599q/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmposgw599q/x
+2025-05-12 16:26:18,461  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,462  INFO      mult_m_v_sparse_like      : [92mPASS[0m
+2025-05-12 16:26:18,477  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkz4wwwrf/o mult_m_v /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkz4wwwrf/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkz4wwwrf/x
+2025-05-12 16:26:18,484  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,485  INFO      mult_m_v_large_dim        : [92mPASS[0m
+2025-05-12 16:26:18,486  DEBUG  ▶ Exec: ./main -f /dev/null mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpu3wo1t7c/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpu3wo1t7c/B
+2025-05-12 16:26:18,490  ERROR  ❌ Exit 1  stdout: 
+stderr: Les dimensions des matrices A et B ne sont pas compatibles pour la multiplication.
+
+2025-05-12 16:26:18,490  INFO      mult_m_m_shape_mismatch   : [92mPASS[0m
+2025-05-12 16:26:18,491  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphhl80eqy/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphhl80eqy/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphhl80eqy/B
+2025-05-12 16:26:18,495  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,496  INFO      mult_m_m_square           : [92mPASS[0m
+2025-05-12 16:26:18,497  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmplkfxewcy/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmplkfxewcy/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmplkfxewcy/B
+2025-05-12 16:26:18,502  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,503  INFO      mult_m_m_rectangular      : [92mPASS[0m
+2025-05-12 16:26:18,503  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpc0ajxlir/o1 mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpc0ajxlir/I /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpc0ajxlir/A
+2025-05-12 16:26:18,508  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,509  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpc0ajxlir/o2 mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpc0ajxlir/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpc0ajxlir/I
+2025-05-12 16:26:18,513  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,514  INFO      mult_m_m_identity         : [92mPASS[0m
+2025-05-12 16:26:18,515  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpgydeogqi/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpgydeogqi/P /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpgydeogqi/I
+2025-05-12 16:26:18,520  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,521  INFO      mult_m_m_permutation      : [92mPASS[0m
+2025-05-12 16:26:18,521  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpjx2eju0_/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpjx2eju0_/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpjx2eju0_/B
+2025-05-12 16:26:18,525  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,526  INFO      mult_m_m_zero             : [92mPASS[0m
+2025-05-12 16:26:18,527  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpoa70hieb/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpoa70hieb/S1 /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpoa70hieb/S2
+2025-05-12 16:26:18,531  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,532  INFO      mult_m_m_symm_not_symm    : [92mPASS[0m
+2025-05-12 16:26:18,532  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmph8mcys3w/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmph8mcys3w/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmph8mcys3w/B
+2025-05-12 16:26:18,537  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,537  INFO      mult_m_m_fp_overflow      : [92mPASS[0m
+2025-05-12 16:26:18,539  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvodfz8yj/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvodfz8yj/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvodfz8yj/B
+2025-05-12 16:26:18,543  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,544  INFO      mult_m_m_1x1              : [92mPASS[0m
+2025-05-12 16:26:18,576  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphj36294t/o mult_m_m /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphj36294t/A /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphj36294t/B
+2025-05-12 16:26:18,609  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,611  INFO      mult_m_m_large_256        : [92mPASS[0m
+2025-05-12 16:26:18,612  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpya_mhd5w/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpya_mhd5w/A
+2025-05-12 16:26:18,617  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,618  INFO      transp_square             : [92mPASS[0m
+2025-05-12 16:26:18,618  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpw3e4ffv2/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpw3e4ffv2/A
+2025-05-12 16:26:18,623  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,624  INFO      transp_rectangular        : [92mPASS[0m
+2025-05-12 16:26:18,624  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwgglqaqr/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwgglqaqr/A
+2025-05-12 16:26:18,629  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,630  INFO      transp_symmetric          : [92mPASS[0m
+2025-05-12 16:26:18,630  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppzabkhiu/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppzabkhiu/v
+2025-05-12 16:26:18,635  ERROR  ❌ Exit 1  stdout: 
+stderr: Problème lors de l'allocation de l'espace mémoire pour une matrice : Cannot allocate memory
+
+2025-05-12 16:26:18,637  ERROR  Exception in transp_vector_1d
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1121, in t_transp_vector_1d
+    run_cli("transp", fv, None, fout=fo, timeout=timeout, binary=binary)
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 205, in run_cli
+    cp = subprocess.run(cmd, check=True, timeout=timeout,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['./main', '-f', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppzabkhiu/o', 'transp', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppzabkhiu/v']' returned non-zero exit status 1.
+
+2025-05-12 16:26:18,637  INFO      transp_vector_1d          : [91mFAIL[0m
+2025-05-12 16:26:18,637  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpiy2120_b/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpiy2120_b/row
+2025-05-12 16:26:18,642  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,643  INFO      transp_row_to_col         : [92mPASS[0m
+2025-05-12 16:26:18,643  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp58d1_xch/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp58d1_xch/col
+2025-05-12 16:26:18,648  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,649  INFO      transp_col_to_row         : [92mPASS[0m
+2025-05-12 16:26:18,650  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkjrg_gdo/o transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpkjrg_gdo/A
+2025-05-12 16:26:18,654  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,655  INFO      transp_noncontiguous      : [92mPASS[0m
+2025-05-12 16:26:18,656  DEBUG  ▶ Exec: ./main -f /dev/null transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpcj787xrm/A
+2025-05-12 16:26:18,689  ERROR  ❌ Exit -11  stdout: 
+stderr: Problème lors de l'allocation de l'espace mémoire pour une matrice : Cannot allocate memory
+
+2025-05-12 16:26:18,690  INFO      hdr_neg_dim_should_fail   : [92mPASS[0m
+2025-05-12 16:26:18,690  DEBUG  ▶ Exec: ./main -f /dev/null transp /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2ivgjt5z/A
+2025-05-12 16:26:18,712  ERROR  ❌ Exit -11  stdout: 
+stderr: Problème lors de l'allocation de l'espace mémoire pour une matrice : Cannot allocate memory
+
+2025-05-12 16:26:18,712  INFO      hdr_big_2pow63_should_fail : [92mPASS[0m
+2025-05-12 16:26:18,713  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpj0uejomt/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpj0uejomt/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpj0uejomt/b
+2025-05-12 16:26:18,718  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,719  INFO      back_sub_regular          : [92mPASS[0m
+2025-05-12 16:26:18,719  DEBUG  ▶ Exec: ./main -f /dev/null back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvwwvzld4/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvwwvzld4/b
+2025-05-12 16:26:18,723  ERROR  ❌ Exit 1  stdout: 
+stderr: Aucune solution : pivot nul et valeur non nulle dans le vecteur.
+
+2025-05-12 16:26:18,724  INFO      back_sub_zero_diag        : [92mPASS[0m
+2025-05-12 16:26:18,725  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2caryoyy/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2caryoyy/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp2caryoyy/b
+2025-05-12 16:26:18,730  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,731  INFO      back_sub_nearly_singular  : [91mFAIL[0m
+2025-05-12 16:26:18,732  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwvn2tjbz/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwvn2tjbz/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpwvn2tjbz/b
+2025-05-12 16:26:18,736  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:18,737  INFO      back_sub_unit_diagonal    : [92mPASS[0m
+2025-05-12 16:26:20,011  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpp8yzwios/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpp8yzwios/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpp8yzwios/b
+2025-05-12 16:26:20,203  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,225  INFO      back_sub_large_n          : [91mFAIL[0m
+2025-05-12 16:26:20,227  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp057sjia7/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp057sjia7/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp057sjia7/b
+2025-05-12 16:26:20,232  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,233  INFO      back_sub_nan_prop         : [92mPASS[0m
+2025-05-12 16:26:20,234  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpmpu2oxyd/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpmpu2oxyd/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpmpu2oxyd/b
+2025-05-12 16:26:20,237  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,237  INFO      back_sub_inf_prop         : [91mFAIL[0m
+2025-05-12 16:26:20,238  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpqdpcn1jo/o back_sub /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpqdpcn1jo/U /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpqdpcn1jo/b
+2025-05-12 16:26:20,241  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,241  INFO      back_sub_empty            : [92mPASS[0m
+2025-05-12 16:26:20,242  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppn5p_wxu/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmppn5p_wxu/A
+2025-05-12 16:26:20,246  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,247  INFO      qr_full_rank_square       : [92mPASS[0m
+2025-05-12 16:26:20,247  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpi1zkdrzr/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpi1zkdrzr/A
+2025-05-12 16:26:20,251  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,251  INFO      qr_tall_skinny            : [92mPASS[0m
+2025-05-12 16:26:20,252  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpy9skf7t6/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpy9skf7t6/A
+2025-05-12 16:26:20,255  ERROR  ❌ Exit 1  stdout: 
+stderr: Nous traitons seulement les matrices A ∈ R^(m*n) avec m >= n.
+
+2025-05-12 16:26:20,256  ERROR  Exception in qr_wide
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1379, in t_qr_wide
+    run_cli("qr", fA, None, fout=fo, timeout=timeout, binary=binary)
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 205, in run_cli
+    cp = subprocess.run(cmd, check=True, timeout=timeout,
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['./main', '-f', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpy9skf7t6/qr', 'qr', '/var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpy9skf7t6/A']' returned non-zero exit status 1.
+
+2025-05-12 16:26:20,256  INFO      qr_wide                   : [91mFAIL[0m
+2025-05-12 16:26:20,257  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpf5mzk8eh/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpf5mzk8eh/A
+2025-05-12 16:26:20,260  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,261  ERROR  qr_rank_deficient_reconstruct mismatch @[2,3]  exp=0.561006  got=0.965266  Δ=0.40426. This indicates a discrepancy between the expected and computed results. Please verify the implementation of the 'qr_rank_deficient_reconstruct' operation. Note that Q·R, This measures reconstruction. Reconstruction means that the product of Q and R should be equal to A.
+2025-05-12 16:26:20,261  INFO      qr_rank_deficient         : [91mFAIL[0m
+2025-05-12 16:26:20,262  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpziiu3mqc/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpziiu3mqc/A
+2025-05-12 16:26:20,266  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,267  INFO      qr_orthogonal_input       : [92mPASS[0m
+2025-05-12 16:26:20,267  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvfu0n6pi/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpvfu0n6pi/A
+2025-05-12 16:26:20,271  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,272  INFO      qr_zero_matrix            : [91mFAIL[0m
+2025-05-12 16:26:20,273  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt09mg_7g/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpt09mg_7g/A
+2025-05-12 16:26:20,276  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,277  INFO      qr_scaled_columns         : [92mPASS[0m
+2025-05-12 16:26:20,278  DEBUG  ▶ Exec: ./main -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpx_nu6hot/qr qr /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpx_nu6hot/A
+2025-05-12 16:26:20,281  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,282  INFO      qr_complex_fail_or_pass   : [92mPASS[0m
+2025-05-12 16:26:20,283  DEBUG  ▶ Exec: ./main -d 4 -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp71vowy_9/o lstsq /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp71vowy_9/X /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp71vowy_9/Y
+2025-05-12 16:26:20,287  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,288  ERROR  Exception in lstsq_exact_fit
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1486, in t_lstsq_exact_fit
+    c = read_vector(fo)
+        ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 122, in read_vector
+    m = _read_u64_be(f)
+        ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 101, in _read_u64_be
+    raise EOFError("unexpected EOF")
+EOFError: unexpected EOF
+
+2025-05-12 16:26:20,288  INFO      lstsq_exact_fit           : [91mFAIL[0m
+2025-05-12 16:26:20,289  DEBUG  ▶ Exec: ./main -d 3 -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzdpirgp3/o lstsq /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzdpirgp3/X /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpzdpirgp3/Y
+2025-05-12 16:26:20,293  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,294  ERROR  Exception in lstsq_overdetermined_cubic
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1503, in t_lstsq_overdetermined_cubic
+    c = read_vector(fo)
+        ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 122, in read_vector
+    m = _read_u64_be(f)
+        ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 101, in _read_u64_be
+    raise EOFError("unexpected EOF")
+EOFError: unexpected EOF
+
+2025-05-12 16:26:20,294  INFO      lstsq_overdetermined_cubic : [91mFAIL[0m
+2025-05-12 16:26:20,294  DEBUG  ▶ Exec: ./main -d 15 -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp0y04ka94/o lstsq /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp0y04ka94/X /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmp0y04ka94/Y
+2025-05-12 16:26:20,301  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,302  ERROR  Exception in lstsq_high_degree_illcond
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1521, in t_lstsq_high_degree
+    c     = read_vector(fo)
+            ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 122, in read_vector
+    m = _read_u64_be(f)
+        ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 101, in _read_u64_be
+    raise EOFError("unexpected EOF")
+EOFError: unexpected EOF
+
+2025-05-12 16:26:20,302  INFO      lstsq_high_degree_illcond : [91mFAIL[0m
+2025-05-12 16:26:20,302  DEBUG  ▶ Exec: ./main -d 3 -f /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphfvpba96/o lstsq /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphfvpba96/X /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmphfvpba96/Y
+2025-05-12 16:26:20,306  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,306  ERROR  Exception in lstsq_rank_deficient
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1827, in run_plan
+    ok = fn(binary, timeout)
+         ^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1540, in t_lstsq_rank_deficient
+    c   = read_vector(fo)
+          ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 122, in read_vector
+    m = _read_u64_be(f)
+        ^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 101, in _read_u64_be
+    raise EOFError("unexpected EOF")
+EOFError: unexpected EOF
+
+2025-05-12 16:26:20,306  INFO      lstsq_rank_deficient      : [91mFAIL[0m
+2025-05-12 16:26:20,307  DEBUG  ▶ Exec: ./main -f /dev/null lstsq /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxxabobv4/X /var/folders/ng/9vk4j05943q8zlcmt72nydt00000gn/T/tmpxxabobv4/Y
+2025-05-12 16:26:20,310  DEBUG  ✔ Return 0  stdout=  stderr=
+2025-05-12 16:26:20,310  ERROR  lstsq: expected failure but exited 0
+2025-05-12 16:26:20,312  ERROR  💥 Uncaught exception
+Traceback (most recent call last):
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1968, in <module>
+    main()
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1948, in main
+    aggregate += run_plan(m, args.timeout_per_test, args.binary)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/diegoseisdedosstoz/Documents/Etudes/UCL/BAC2/LEPL1503/projet-matrix/ci_tests_runner.py", line 1836, in run_plan
+    doc = (fn.__doc__ or "").strip().splitlines()[0]
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
